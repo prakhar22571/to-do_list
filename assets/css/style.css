@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Montserrat';
     background-image: url(https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
@@ -80,6 +81,11 @@ li:nth-child(2n){
     background: #f7f7f7;
 }
 
+li:hover{
+    background-color: aqua;
+    color: red;
+}
+
 input{
     font-size: 18px;
     background-color: #f7f7f7;
@@ -103,5 +109,6 @@ input:focus{
     html{
         font-size: 80%;
     }
+
 }
 
