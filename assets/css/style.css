@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cedarville+Cursive&family=Grape+Nuts&family=Inspiration&family=Montserrat:wght@300;400;500;700&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Wet+Paint&family=Sansita+Swashed:wght@500&family=Send+Flowers&display=swap');
+
+body{
+    font-family: 'Montserrat';
+    background-image: url(https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+#container{
+    width: 360px;
+    margin: 100px auto;
+    background: #adc4d2;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+h1{
+    background: gold;
+    color: blue;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+}
+
+.fa-plus{
+    float: right;
+}
+
+span{
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    font-family:cursive;
+    color: #2980b9;
+    border: 3px solid rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+}
+
+input:focus{
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
