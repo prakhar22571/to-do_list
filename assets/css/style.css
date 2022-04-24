@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cedarville+Cursive&family=Grape+Nuts&family=Inspiration&family=Montserrat:wght@300;400;500;700&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Wet+Paint&family=Sansita+Swashed:wght@500&family=Send+Flowers&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Montserrat';
     background-image: url(https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
@@ -7,6 +12,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 70%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #container{
@@ -14,6 +21,7 @@ body{
     margin: 100px auto;
     background: #adc4d2;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    align-self: center;
 }
 
 .completed{
@@ -72,7 +80,6 @@ li:nth-child(2n){
     background: #f7f7f7;
 }
 
-
 input{
     font-size: 18px;
     background-color: #f7f7f7;
@@ -89,4 +96,71 @@ input:focus{
     background: #fff;
     border: 3px solid #2980b9;
     outline: none;
+}
+/*<------------------------------------------------RESPONSIVENESS------------------------------------------------->*/
+@media (max-width: 500px){
+    
+    html{
+        font-size: 50%;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+    
+    html{
+        font-size: 50%;
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box, .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-wrapper .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(orientation:landscape) and (max-height: 500px){
+
+    .header{
+        height: 90vmax;
+    }
+
 }
