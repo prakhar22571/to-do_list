@@ -96,6 +96,7 @@ input{
     color: #2980b9;
     border: 3px solid rgba(0, 0, 0, 0);
     text-transform: uppercase;
+    text-align: center;
 }
 
 input:focus{
@@ -103,6 +104,23 @@ input:focus{
     border: 3px solid #2980b9;
     outline: none;
 }
+
+#button{
+    text-align: center;
+    background-color: gold;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1px;
+}
+
 /*<------------------------------------------------RESPONSIVENESS------------------------------------------------->*/
 @media (max-width: 500px){
     
