@@ -101,66 +101,7 @@ input:focus{
 @media (max-width: 500px){
     
     html{
-        font-size: 50%;
-    }
-
-    .navbar .nav-items, .navbar .logo{
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    
-    
-}
-
-@media (min-width: 501px) and (max-width: 768px){
-    
-    html{
-        font-size: 50%;
-    }
-
-    p{
-        font-size: 1.8rem;
-    }
-
-    .navbar .nav-items, .navbar .logo{
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .row{
-        height: auto;
-        width: 100%;
-    }
-
-    .row .img-box, .row .text-box{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .form-wrapper .address{
-        float: none;
-        width: 100%;
-        height: auto;
-        margin-bottom: 5rem;
-    }
-
-    .form-wrapper .form{
-        float: none;
-        width: 100%;
-        height: auto;
+        font-size: 80%;
     }
 }
 
-@media(orientation:landscape) and (max-height: 500px){
-
-    .header{
-        height: 90vmax;
-    }
-
-}
